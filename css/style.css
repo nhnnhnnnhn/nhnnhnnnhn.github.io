@@ -365,6 +365,32 @@ footer {
     background-color: var(--secondary-color);
 }
 
+.error-message {
+    color: #e74c3c;
+    font-size: 0.85rem;
+    margin-top: 5px;
+    display: block;
+}
+
+.success-message {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 15px;
+    border-radius: var(--border-radius);
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 500;
+}
+
+textarea {
+    resize: center;
+    min-height: 100px;
+}
+
+input.error, textarea.error {
+    border-color: #e74c3c;
+}
+
 @media (max-width: 900px) {
     .hero-content {
         flex-direction: column;
